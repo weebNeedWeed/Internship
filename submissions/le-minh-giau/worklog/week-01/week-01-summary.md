@@ -10,7 +10,7 @@
 ---
 
 ## 🎯 Mục tiêu tuần
-- [x] Hoàn thành video bài giảng Week 1: Network Foundation và đạt điểm tuyệt đối quiz
+- [x] Xem video bài giảng Week 1: Network Foundation và trả lời quiz
 - [x] Thực hành thành công các lab networking (VPC, VPN, Peering, Transit Gateway, Route 53)
 - [x] Phát triển xong ứng dụng Spring Boot quản lý to-do list, sẵn sàng deploy lên ECS
 

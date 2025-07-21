@@ -6,14 +6,15 @@
 * **Thời gian làm việc**: 9:00 - 17:00, từ 12/05 đến 06/06
 * **Tổng số ngày làm việc**: 20 ngày (5 ngày/tuần)
 * **Mood trong tháng**: 😊
-* **Điểm nổi bật**: Hoàn thành toàn bộ các mục tiêu học tập, thực hành thành công các lab về networking, ECS, CI/CD, Blue/Green deployment, event-driven, serverless, Step Functions. Chủ động tự học, cải thiện kỹ năng DevOps và kiến trúc hiện đại trên AWS.
+* **Điểm nổi bật**: Hoàn thành đầy đủ các mục tiêu học tập về AWS Networking, ECS, ECR, CI/CD, phát triển ứng dụng Spring Boot, thực hành nhiều lab thực tế về networking, container orchestration, microservices, event-driven, serverless, Step Functions. Chủ động tự học, cải thiện kỹ năng DevOps và kiến trúc hiện đại trên AWS.
 
 ---
 
 ## 🎯 Mục tiêu tháng
 
 * [x] Nắm vững kiến thức nền tảng về AWS Networking, ECS, ECR, CI/CD
-* [x] Thực hành triển khai các kiến trúc hiện đại: Blue/Green deployment, event-driven, serverless
+* [x] Phát triển và triển khai ứng dụng Spring Boot trên ECS
+* [x] Thực hành các kiến trúc hiện đại: microservices, event-driven, serverless, auto scaling
 * [x] Hoàn thành các lab thực tế, tự tin vận hành và tối ưu hệ thống trên AWS
 
 ---
@@ -23,8 +24,8 @@
 | Tuần   | Ngày             | Công việc chính  | Kết quả             | Thời gian | Tools/Tech         |
 | ------ | ---------------- | ---------------- | ------------------- | --------- | ------------------ |
 | Tuần 1 | 12/05 - 16/05    | Học AWS Networking, phát triển Spring Boot, thực hành ECS, ECR, CI/CD | Hoàn thành các mục tiêu học tập, thực hành nhiều lab | 40 giờ | AWS VPC, ECS, ECR, CodePipeline, Java, Spring Boot |
-| Tuần 2 | 19/05 - 23/05    | Thực hành Blue/Green deployment, CloudWatch monitoring, tối ưu CI/CD | Thành thạo Blue/Green, monitoring, CI/CD nâng cao | 40 giờ | ECS, CodeDeploy, CloudWatch, CodePipeline |
-| Tuần 3 | 26/05 - 30/05    | Viết hướng dẫn ECS Exec, CI/CD Pipeline, Auto Scaling, Clean Up | Hoàn thành toàn bộ workshop, kiểm thử lại quy trình | 40 giờ | ECS Exec, CodePipeline, Auto Scaling, AWS CLI |
+| Tuần 2 | 19/05 - 23/05    | Thiết lập networking, security, RDS, ECR, ECS, ALB, Service Connect, hoàn thiện workshop 01 | Hoàn thành toàn bộ các phần workshop, quản lý thời gian tốt | 40 giờ | AWS VPC, ECS, RDS, ECR, ALB, Service Connect |
+| Tuần 3 | 26/05 - 30/05    | Viết hướng dẫn ECS Exec, CI/CD Pipeline, Auto Scaling, Clean Up, thực hành lại workshop | Hoàn thành toàn bộ workshop, kiểm thử lại quy trình, sửa lỗi nhỏ | 40 giờ | ECS Exec, CodePipeline, Auto Scaling, AWS CLI |
 | Tuần 4 | 02/06 - 06/06    | Thực hành Storage, EventBridge, Serverless, Step Functions | Nắm vững event-driven, serverless, hoàn thành các lab lớn | 40 giờ | S3, Lambda, EventBridge, Step Functions, DynamoDB |
 
 ---
@@ -33,21 +34,21 @@
 
 ### 🔧 Technical Skills
 
-* **AWS Services**: VPC, ECS (Fargate/EC2), ECR, S3, EBS, EFS, FSx, Storage Gateway, CodePipeline, CodeBuild, CodeDeploy, CloudWatch, ALB, Lambda, EventBridge, SNS, SQS, DynamoDB, Step Functions
+* **AWS Services**: VPC, ECS (Fargate/EC2), ECR, S3, EBS, EFS, FSx, Storage Gateway, CodePipeline, CodeBuild, CodeDeploy, CloudWatch, ALB, Lambda, EventBridge, SNS, SQS, DynamoDB, Step Functions, RDS, Secrets Manager, Service Connect
 * **Programming**: Java, Spring Boot, Bash, YAML, Docker
 * **DevOps**: CI/CD pipelines, automated testing, monitoring/logging, IaC với CloudFormation
 * **Architecture**: Microservices, event-driven, serverless, Blue/Green deployment, auto scaling, hybrid storage, container orchestration
 
 ### 💡 Concepts & Theory
 
-* **New Concepts**: Blue/Green deployment, event bus, event rules, Step Functions, state machine, choreography vs orchestration, hybrid storage
-* **Best Practices**: Zero-downtime deployment, least privilege IAM, workflow tối ưu, cost optimization, automated rollback, decoupling, backup tự động
+* **New Concepts**: Blue/Green deployment, event bus, event rules, Step Functions, state machine, choreography vs orchestration, hybrid storage, Service Connect, ECS Exec, Auto Scaling
+* **Best Practices**: Zero-downtime deployment, least privilege IAM, workflow tối ưu, cost optimization, automated rollback, decoupling, backup tự động, clean up tài nguyên AWS
 * **Industry Knowledge**: DevOps workflow, cloud-native patterns, CI/CD pipelines, monitoring production workloads, event-driven architecture
 
 ### 🤝 Soft Skills
 
 * **Communication**: Đọc hiểu tài liệu kỹ thuật, chủ động hỏi mentor, trình bày vấn đề rõ ràng
-* **Problem Solving**: Troubleshooting networking, debug pipeline, xử lý lỗi event-driven
+* **Problem Solving**: Troubleshooting networking, debug pipeline, xử lý lỗi event-driven, phát hiện và sửa lỗi nhỏ trong workshop
 * **Time Management**: Quản lý thời gian hiệu quả, chia nhỏ milestone, hoàn thành đúng tiến độ
 * **Learning**: Chủ động tự học, thực hành hands-on, tổng hợp kiến thức mới
 
@@ -69,7 +70,7 @@
 ### ✅ What went well
 
 * Hoàn thành đầy đủ các mục tiêu học tập, thực hành nhiều lab thực tế
-* Nắm vững các kiến thức về networking, ECS, CI/CD, Blue/Green deployment, event-driven, serverless
+* Nắm vững các kiến thức về networking, ECS, CI/CD, microservices, event-driven, serverless, auto scaling
 * Chủ động tự học, cải thiện kỹ năng DevOps, quản lý thời gian hiệu quả
 
 ### 🔄 What could be improved
@@ -94,7 +95,7 @@
 | ----------------- | ---- | ----------------------------------------------------------- |
 | **Productivity**  | 8    | Hoàn thành toàn bộ mục tiêu tháng, thực hành đầy đủ các lab |
 | **Learning**      | 9    | Tiếp thu nhiều kiến thức mới về AWS, DevOps, kiến trúc hiện đại |
-| **Collaboration** | 7    | Chủ động trao đổi với mentor, cần tăng cường hơn nữa        |
+| **Collaboration** | 6    | Chủ yếu tự học, cần tăng trao đổi với mentor                |
 | **Growth**        | 8    | Phát triển kỹ năng DevOps, tự tin hơn với hệ thống AWS      |
 | **Satisfaction**  | 8    | Hài lòng với tiến độ, chất lượng học tập, cần thực hành thêm project thực tế |
 
